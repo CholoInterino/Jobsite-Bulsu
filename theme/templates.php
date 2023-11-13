@@ -34,13 +34,13 @@
      }
 
      .login a:hover {
-         color: #Ff0589;
+         color: #FF69B4;
          text-decoration: none;
 
      }
 
      .login a:focus {
-         color: #Ff0589;
+         color: #FF69B4;
          text-decoration: none;
 
      }
@@ -101,7 +101,8 @@
                              <span class="icon-bar"></span>
                              <span class="icon-bar"></span>
                          </button>
-                         <a class="navbar-brand" href="<?php echo web_root; ?>index.php">Jobsite Bulsu
+
+                         <a class="navbar-brand text-center" href="<?php echo web_root; ?>index.php">Jobsite Bulsu
                              <!-- <img src="<?php echo web_root; ?>plugins/home-plugins/img/logo.png" alt="logo"/> -->
                          </a>
                      </div>

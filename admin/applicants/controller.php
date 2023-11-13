@@ -36,6 +36,7 @@ switch ($action) {
 	Check_StudentID();
 	break;
 	
+	
 
 	}
    
@@ -119,6 +120,9 @@ switch ($action) {
 
 	}
 
+	
+	
+
 	function doEdit(){
 	if(isset($_POST['save'])){
 
@@ -179,18 +183,18 @@ switch ($action) {
 } 
 	function doDelete(){
 		
-		// if (isset($_POST['selector'])==''){
-		// message("Select the records first before you delete!","error");
-		// redirect('index.php');
-		// }else{
+		if (isset($_POST['selector'])==''){
+		message("Select the records first before you delete!","error");
+		redirect('index.php');
+		}else{
 
-		// $id = $_POST['selector'];
-		// $key = count($id);
+		$id = $_POST['selector'];
+		$key = count($id);
 
-		// for($i=0;$i<$key;$i++){
+		for($i=0;$i<$key;$i++){
 
-		// 	$subj = New Student();
-		// 	$subj->delete($id[$i]);
+			$subj = New Student();
+			$subj->delete($id[$i]);
 
 		
 				$id = 	$_GET['id'];
@@ -199,10 +203,10 @@ switch ($action) {
 	 		 	$emp->delete($id);
 			 
 		
-		// }
+		}
 			message("Employee(s) already Deleted!","success");
 			redirect('index.php');
-		// }
+		}
 
 		
 	}

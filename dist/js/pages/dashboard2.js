@@ -121,8 +121,8 @@ $(function () {
     },
     {
       value: 300,
-      color: "#ff0589",
-      highlight: "#ff0589",
+      color: "#FF69B4",
+      highlight: "#FF69B4",
       label: "Opera"
     },
     {

@@ -8,7 +8,8 @@
                  <div class="col-md-6">
                      <div class="about-text">
                          <h3>Jobsite Bulsu</h3>
-                         <p>Welcome to Jobsite Bulsu, your premier destination for connecting students and job seekers
+                         <p style="text-align: justify;">Welcome to Jobsite Bulsu, your premier destination for
+                             connecting students and job seekers
                              with exciting opportunities within and beyond the Bulacan State University (Bulsu)
                              community. We are dedicated to bridging the gap between academic excellence and real-world
                              employment, empowering individuals to embark on meaningful careers and shape their future.
@@ -61,7 +62,7 @@
                              <div class="panel-heading">
                                  <h4 class="panel-title">
                                      <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
-                                         <i class="fa fa-angle-right"></i> Accordion Heading Text Item # 1
+                                         <i class="fa fa-angle-right"></i> Jobs
                                      </a>
                                  </h4>
                              </div>
@@ -79,7 +80,7 @@
                              <div class="panel-heading">
                                  <h4 class="panel-title">
                                      <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
-                                         <i class="fa fa-angle-right"></i> Accordion Heading Text Item # 2
+                                         <i class="fa fa-angle-right"></i> OJT
                                      </a>
                                  </h4>
                              </div>
@@ -96,7 +97,7 @@
                              <div class="panel-heading">
                                  <h4 class="panel-title">
                                      <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3">
-                                         <i class="fa fa-angle-right"></i> Accordion Heading Text Item # 3
+                                         <i class="fa fa-angle-right"></i> Internship
                                      </a>
                                  </h4>
                              </div>
@@ -113,7 +114,7 @@
                              <div class="panel-heading">
                                  <h4 class="panel-title">
                                      <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFour-alt3">
-                                         <i class="fa fa-angle-right"></i> Accordion Heading Text Item # 4
+                                         <i class="fa fa-angle-right"></i> Fresh Graduates
                                      </a>
                                  </h4>
                              </div>
