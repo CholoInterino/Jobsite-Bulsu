@@ -181,11 +181,11 @@
 
                     <div class="form-group">
                         <div class="col-md-8">
-                            <label class="col-md-4 control-label" for="TELNO">Contact No.:</label>
+                            <label class="col-md-4 control-label" for="TELLNO">Contact No.:</label>
 
                             <div class="col-md-8">
 
-                                <input class="form-control input-sm" id="TELNO" name="TELNO" placeholder="Contact No."
+                                <input class="form-control input-sm" id="TELLNO" name="TELLNO" placeholder="Contact No."
                                     type="text" any value="" required
                                     onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
                             </div>
@@ -224,10 +224,10 @@
                     <!--     <div class="form-group">
                               <div class="col-md-8">
                                 <label class="col-md-4 control-label" for=
-                                "WORKSTATS">Work Status:</label>
+                                "WORKSTATUS">Work Status:</label>
 
                                 <div class="col-md-8">
-                                  <select class="form-control input-sm" name="WORKSTATS" id="WORKSTATS">
+                                  <select class="form-control input-sm" name="WORKSTATUS" id="WORKSTATUS">
                                       <option value="none" >Select</option>
                                       <option value="Regular">Temporary</option> 
                                       <option value="Regular">Regular</option>

@@ -69,13 +69,16 @@
                                     <span
                                         class="label label-success pull-right"><?php echo isset($showMsg->COUNT) ? $showMsg->COUNT : 0;?></span></a>
                             </li>
-                            <!--      <li class="<?php echo ($view=='notification') ? 'active': '';?>"><a href="<?php echo web_root.'applicant/index.php?view=notification'; ?>"><i class="fa fa-bell-o"></i> Notification
-                  <span class="label label-success pull-right"><?php echo $notif; ?></span></a></li> -->
-                            <!-- <li><a href="#"><i class="fa fa-envelope-o"></i> Sent</a></li> -->
-                            <!-- <li><a href="#"><i class="fa fa-file-text-o"></i> Drafts</a></li> -->
-                            <!-- <li><a href="#"><i class="fa fa-filter"></i> Junk <span class="label label-warning pull-right">65</span></a> 
-                </li>-->
-                            <!-- <li><a href="#"><i class="fa fa-trash-o"></i> Trash</a></li> -->
+                            <li class="<?php echo ($view=='notification') ? 'active': '';?>"><a
+                                    href="<?php echo web_root.'applicant/index.php?view=notification'; ?>"><i
+                                        class="fa fa-bell-o"></i> Notification
+                                    <span class="label label-success pull-right"><?php echo $notif; ?></span></a></li>
+                            <!-- <li><a href="#"><i class="fa fa-envelope-o"></i> Sent</a></li>
+                            <li><a href="#"><i class="fa fa-file-text-o"></i> Drafts</a></li>
+                            <li><a href="#"><i class="fa fa-filter"></i> Junk <span
+                                        class="label label-warning pull-right">65</span></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-trash-o"></i> Trash</a></li> -->
                         </ul>
                     </div>
                     <!-- /.box-body -->

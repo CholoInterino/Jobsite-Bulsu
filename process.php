@@ -99,7 +99,7 @@ function doInsert($jobid = 0, $fileid = 0)
             $applicant->USERNAME = $_POST['USERNAME'];
             $applicant->PASS = sha1($_POST['PASS']);
             $applicant->EMAILADDRESS = $_POST['EMAILADDRESS'];
-            $applicant->CONTACTNO = $_POST['TELNO'];
+            $applicant->CONTACTNO = $_POST['TELLNO'];
             $applicant->DEGREE = $_POST['DEGREE'];
             $applicant->create();
 
@@ -186,7 +186,7 @@ function doRegister()
             $applicant->USERNAME = $_POST['USERNAME'];
             $applicant->PASS = sha1($_POST['PASS']);
             $applicant->EMAILADDRESS = $_POST['EMAILADDRESS'];
-            $applicant->CONTACTNO = $_POST['TELNO'];
+            $applicant->CONTACTNO = $_POST['TELLNO'];
             $applicant->DEGREE = $_POST['DEGREE'];
             $applicant->create();
 

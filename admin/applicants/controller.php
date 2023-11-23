@@ -47,7 +47,7 @@ switch ($action) {
 
 		if ( $_POST['FNAME'] == "" OR $_POST['LNAME'] == ""
 			OR $_POST['MNAME'] == ""  OR $_POST['ADDRESS'] == "" 
-			OR $_POST['TELNO'] == "") {
+			OR $_POST['TELLNO'] == "") {
 			$messageStats = false;
 			message("All fields are required!","error");
 			redirect('index.php?view=add');
@@ -91,7 +91,7 @@ switch ($action) {
 					$emp->BIRTHPLACE		= $_POST['BIRTHPLACE'];  
 					$emp->AGE			    = $age;
 					$emp->SEX 				= $_POST['optionsRadios']; 
-					$emp->TELNO				= $_POST['TELNO'];
+					$emp->TELLNO				= $_POST['TELLNO'];
 					$emp->CIVILSTATUS		= $_POST['CIVILSTATUS']; 
 					$emp->POSITION			= trim($_POST['POSITION']);
 					// $emp->DEPARTMENTID		= $_POST['DEPARTMENTID'];
@@ -128,7 +128,7 @@ switch ($action) {
 
 		if ( $_POST['FNAME'] == "" OR $_POST['LNAME'] == ""
 			OR $_POST['MNAME'] == "" OR $_POST['ADDRESS'] == "" 
-			OR $_POST['TELNO'] == "") {
+			OR $_POST['TELLNO'] == "") {
 			$messageStats = false;
 			message("All fields are required!","error");
 			redirect('index.php?view=add');
@@ -155,7 +155,7 @@ switch ($action) {
 					$emp->BIRTHPLACE		= $_POST['BIRTHPLACE'];  
 					$emp->AGE			    = $age;
 					$emp->SEX 				= $_POST['optionsRadios']; 
-					$emp->TELNO				= $_POST['TELNO'];
+					$emp->TELLNO				= $_POST['TELLNO'];
 					$emp->CIVILSTATUS		= $_POST['CIVILSTATUS']; 
 					$emp->POSITION			= trim($_POST['POSITION']);
 					// $emp->DEPARTMENTID		= $_POST['DEPARTMENTID'];

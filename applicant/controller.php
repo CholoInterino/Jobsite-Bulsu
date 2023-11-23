@@ -46,7 +46,7 @@ switch ($action) {
 					$applicant->BIRTHPLACE = $_POST['BIRTHPLACE'];
 					$applicant->AGE = $age; 
 					$applicant->EMAILADDRESS = $_POST['EMAILADDRESS'];
-					$applicant->CONTACTNO = $_POST['TELNO'];
+					$applicant->CONTACTNO = $_POST['TELLNO'];
 					$applicant->DEGREE = $_POST['DEGREE'];
 					$applicant->update($_SESSION['APPLICANTID']);
 

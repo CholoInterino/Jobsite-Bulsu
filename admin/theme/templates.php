@@ -181,7 +181,7 @@
                             <i class="fa fa-users"></i> <span>Applicants</span>
                             <span class="label label-primary pull-right">
                                 <?php
-                $sql = "SELECT count(*) as 'APPL' FROM `tbljobregistration` WHERE `PENDINGAPPLICATION`=1";
+                $sql = "SELECT count(*) as 'APPL' FROM `tbljobregistration` WHERE `PENDINGAPPLICATION`=0";
                 $mydb->setQuery($sql);
                 $pending = $mydb->loadSingleResult();
                 echo $pending->APPL;
@@ -272,7 +272,7 @@
             <div class="pull-right hidden-xs">
                 <b>Version</b> 1
             </div>
-            <strong>Copyright &copy; 2023 <a href="#">Cholo</a>.</strong> All rights
+            <strong>Copyright &copy; 2023 <a href="#">Meneses Campsus</a>.</strong> All rights
             reserved.
         </footer>
 

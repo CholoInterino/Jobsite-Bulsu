@@ -123,11 +123,11 @@
 
           <div class="form-group">
               <div class="col-md-11">
-                  <label class="col-md-4 control-label" for="TELNO">Contact No.:</label>
+                  <label class="col-md-4 control-label" for="TELLNO">Contact No.:</label>
 
                   <div class="col-md-8">
 
-                      <input class="form-control input-sm" id="TELNO" name="TELNO" placeholder="Contact No." type="text"
+                      <input class="form-control input-sm" id="TELLNO" name="TELLNO" placeholder="Contact No." type="text"
                           any value="<?php echo $appl->CONTACTNO;?>" required
                           onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
                   </div>

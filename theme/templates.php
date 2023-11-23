@@ -263,7 +263,7 @@
                          <div class="col-lg-6">
                              <div class="copyright">
                                  <p>
-                                     <span>&copy; Cholo 2023 All right reserved.
+                                     <span>&copy; Meneses Campus 2023 All right reserved.
                                  </p>
                              </div>
                          </div>
