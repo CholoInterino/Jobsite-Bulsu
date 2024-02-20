@@ -30,7 +30,7 @@ $appl  = $applicant->single_applicant($_SESSION['APPLICANTID']);
                     <!-- /.box-header -->
                     <div class="box-body no-padding">
                         <div class="mailbox-read-info">
-                            <h3><?php  echo $res->OCCUPATIONTITLE; ?></h3>
+                            <h3 class="text-center"><?php  echo $res->OCCUPATIONTITLE; ?></h3>
                             <h5>From: <?php  echo $res->COMPANYNAME; ?>
                                 <span
                                     class="mailbox-read-time pull-right"><?php  echo date_format(date_create($res->DATETIMEAPPROVED),'d M. Y h:i a'); ?></span>

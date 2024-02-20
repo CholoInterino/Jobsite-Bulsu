@@ -28,6 +28,14 @@
 
                         <div class="table-responsive mailbox-messages">
                             <table class="table table-hover table-striped">
+                                <!-- add row for JQD -->
+                                <thead>
+                                    <tr>
+                                        <th>Job Description</th>
+                                        <th>Qualification/Work Experience</th>
+                                        <th>Date Posted</th>
+                                    </tr>
+                                </thead>
                                 <tbody>
                                     <?php 
                         $sql = "SELECT * FROM `tbljob` j, `tblcompany` c WHERE j.`COMPANYID`=c.`COMPANYID` ORDER BY DATEPOSTED DESC LIMIT 10";
@@ -37,9 +45,9 @@
                           # code...
                           echo '<tr>'; 
                           echo '<td class="mailbox-name"><a href="'.web_root.'index.php?q=viewjob&search='.$result->JOBID.'">'.$result->OCCUPATIONTITLE.'</a></td>';
-                          echo '<td class="mailbox-subject">'.$result->JOBDESCRIPTION.'</td>'; 
-                          echo '<td class="mailbox-date">'.$result->QUALIFICATION_WORKEXPERIENCE.'</td>';
+                          echo '<td class="mailbox-subject">'.$result->QUALIFICATION_WORKEXPERIENCE.'</td>'; 
                           echo '<td class="mailbox-date">'.$result->DATEPOSTED.'</td>';
+                        //   echo '<td class="mailbox-date">'.$result->DATEPOSTED.'</td>';
                           echo '</tr>';
                         }
                     ?>

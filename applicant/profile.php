@@ -73,6 +73,7 @@
                                     href="<?php echo web_root.'applicant/index.php?view=notification'; ?>"><i
                                         class="fa fa-bell-o"></i> Notification
                                     <span class="label label-success pull-right"><?php echo $notif; ?></span></a></li>
+
                             <!-- <li><a href="#"><i class="fa fa-envelope-o"></i> Sent</a></li>
                             <li><a href="#"><i class="fa fa-file-text-o"></i> Drafts</a></li>
                             <li><a href="#"><i class="fa fa-filter"></i> Junk <span

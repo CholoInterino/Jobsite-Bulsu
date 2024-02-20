@@ -53,6 +53,13 @@ if (!isset($_GET['p'])) {
                       </div>
                       <div class="table-responsive mailbox-messages">
                           <table class="table table-hover table-striped">
+                              <thead>
+                                  <tr>
+                                      <th>Company</th>
+                                      <th>Message</th>
+                                      <th>Date</th>
+                                  </tr>
+                              </thead>
                               <tbody>
                                   <?php 
                         $sql = "SELECT * FROM `tblcompany` c,`tbljobregistration` j,`tblfeedback` f  WHERE c.`COMPANYID`=j.`COMPANYID` AND j.`REGISTRATIONID`=f.`REGISTRATIONID` AND `PENDINGAPPLICATION`=0 AND j.`APPLICANTID`='{$_SESSION['APPLICANTID']}'";
@@ -61,7 +68,7 @@ if (!isset($_GET['p'])) {
                         foreach ($cur as $result) {
                           # code...
                           echo '<tr>';
-                          echo '<td><input type="checkbox"></td>';
+                        //   echo '<td><input type="checkbox"></td>';
                           // echo '<td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>';
                           echo '<td class="mailbox-name"><a href="index.php?view=message&p=readmessage&id='.$result->REGISTRATIONID.'">'.$result->COMPANYNAME.'</a></td>';
                           echo '<td class="mailbox-subject">'.$result->REMARKS.'</td>'; 
